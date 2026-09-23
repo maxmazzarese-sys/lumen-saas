@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lumen — The daily brief your team actually reads</title>
+  <meta name="description" content="Lumen turns meetings, tickets, and inboxes into one calm daily brief. Recurring plans via Whop." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script async defer src="https://js.whop.com/static/checkout/loader.js"></script>
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="nav">
+    <a class="brand" href="#top">
+      <span class="mark" aria-hidden="true"></span>
+      Lumen
+    </a>
+    <nav class="links">
+      <a href="#product">Product</a>
+      <a href="#how">How it works</a>
+      <a href="#pricing">Pricing</a>
+    </nav>
+    <a class="btn ghost" href="#pricing">Start free trial</a>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <p class="eyebrow">AI workspace · 7-day free trial</p>
+      <h1>The daily brief<br /><em>your team actually reads.</em></h1>
+      <p class="lede">
+        Lumen pulls meetings, tickets, and inboxes into one quiet page each morning.
+        No dashboards to babysit. Just the work that matters.
+      </p>
+      <div class="cta-row">
+        <a class="btn solid" href="#pricing">Start 7-day trial</a>
+        <a class="btn ghost" href="#product">See the product</a>
+      </div>
+      <p class="fine">Cancel anytime. Payments by Whop.</p>
+    </section>
+
+    <section class="stage" id="product">
+      <div class="window">
+        <div class="chrome">
+          <span></span><span></span><span></span>
+          <p>lumen.app / brief / today</p>
+        </div>
+        <div class="brief">
+          <div class="brief-head">
+            <div>
+              <p class="date">Wednesday, Sep 23</p>
+              <h2>Good morning, Max</h2>
+            </div>
+            <span class="pill">3 decisions · 2 blockers</span>
+          </div>
+          <article>
+            <h3>Needs you</h3>
+            <ul>
+              <li><strong>Pricing page copy</strong> — Design is waiting on the Pro vs Starter split.</li>
+              <li><strong>Whop checkout</strong> — Recurring plans live. Embed the Pro plan on launch.</li>
+            </ul>
+          </article>
+          <article>
+            <h3>Moving without you</h3>
+            <ul>
+              <li>Support closed 11 tickets overnight.</li>
+              <li>Northstar cohort hit 64% activation.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid-3" id="how">
+      <div>
+        <span class="num">01</span>
+        <h3>Connect the noise</h3>
+        <p>Slack, Linear, Gmail, Notion, and calendar. Lumen listens once, then stays quiet.</p>
+      </div>
+      <div>
+        <span class="num">02</span>
+        <h3>One brief at 8:01</h3>
+        <p>A single page: decisions, blockers, and what shipped. Written like a human, not a log dump.</p>
+      </div>
+      <div>
+        <span class="num">03</span>
+        <h3>Act, then close the tab</h3>
+        <p>Reply inline, assign, or archive. The brief is done when the morning is done.</p>
+      </div>
+    </section>
+
+    <section class="split">
+      <div>
+        <p class="eyebrow">Built for operators</p>
+        <h2>Fewer tools.<br />More signal.</h2>
+        <p>Most teams already have the data. They do not have a place that tells them what changed and what to do next. Lumen is that place.</p>
+      </div>
+      <ul class="checks">
+        <li>Daily brief, not another inbox</li>
+        <li>Team workspace on Pro</li>
+        <li>Priority processing for large orgs</li>
+        <li>Cancel in one click from Whop</li>
+      </ul>
+    </section>
+
+    <section class="pricing" id="pricing">
+      <p class="eyebrow">Simple pricing</p>
+      <h2>Start free for seven days.</h2>
+      <p class="lede tight">Recurring monthly billing through Whop. No annual lock-in.</p>
+
+      <div class="plans">
+        <article class="plan">
+          <header>
+            <h3>Starter</h3>
+            <p class="price">$19 <span>/ month</span></p>
+            <p>For a single operator who wants a calmer morning.</p>
+          </header>
+          <ul>
+            <li>Personal workspace</li>
+            <li>30 briefs / month</li>
+            <li>Core integrations</li>
+            <li>7-day free trial</li>
+          </ul>
+          <button class="btn solid wide" data-plan="starter">Start Starter trial</button>
+        </article>
+
+        <article class="plan featured">
+          <p class="badge">Most teams</p>
+          <header>
+            <h3>Pro</h3>
+            <p class="price">$49 <span>/ month</span></p>
+            <p>For teams that need one shared source of truth.</p>
+          </header>
+          <ul>
+            <li>Unlimited briefs</li>
+            <li>Team workspace</li>
+            <li>Priority processing</li>
+            <li>SSO + admin controls</li>
+          </ul>
+          <button class="btn solid wide" data-plan="pro">Start Pro trial</button>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span class="brand small"><span class="mark"></span> Lumen</span>
+    <p>Payments secured by Whop · Cancel anytime</p>
+  </footer>
+
+  <div class="overlay" id="checkout" hidden>
+    <div class="sheet">
+      <div class="sheet-bar">
+        <div>
+          <p class="eyebrow" id="sheet-label">Starter</p>
+          <h3>Complete your subscription</h3>
+        </div>
+        <button class="icon-btn" id="close-checkout" aria-label="Close checkout">✕</button>
+      </div>
+      <div class="embed" id="embed-starter">
+        <div
+          data-whop-checkout-plan-id="plan_IcdZB7VN7kiwP"
+          data-whop-checkout-theme="dark"
+          data-whop-checkout-return-url=""
+        ></div>
+      </div>
+      <div class="embed" id="embed-pro" hidden>
+        <div
+          data-whop-checkout-plan-id="plan_3r7001UZ8ujbM"
+          data-whop-checkout-theme="dark"
+          data-whop-checkout-return-url=""
+        ></div>
+      </div>
+      <p class="fine center">You can also pay on Whop:
+        <a href="https://whop.com/checkout/plan_IcdZB7VN7kiwP">Starter</a> ·
+        <a href="https://whop.com/checkout/plan_3r7001UZ8ujbM">Pro</a>
+      </p>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
