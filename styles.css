@@ -161,7 +161,14 @@ footer {
 
 .overlay {
   position: fixed; inset: 0; background: rgba(0,0,0,.62);
-  display: grid; place-items: center; z-index: 40; padding: 20px;
+  display: none;
+  place-items: center; z-index: 40; padding: 20px;
+}
+.overlay.is-open {
+  display: grid;
+}
+.overlay[hidden] {
+  display: none !important;
 }
 .sheet {
   width: min(560px, 100%);

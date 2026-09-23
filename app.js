@@ -16,14 +16,17 @@ function openPlan(plan) {
   starter.hidden = isPro;
   pro.hidden = !isPro;
   checkout.hidden = false;
+  checkout.classList.add("is-open");
   document.body.style.overflow = "hidden";
 }
 
 function closeCheckout() {
   checkout.hidden = true;
+  checkout.classList.remove("is-open");
   document.body.style.overflow = "";
 }
 
+closeCheckout();
 setReturnUrls();
 
 document.querySelectorAll("[data-plan]").forEach((btn) => {
