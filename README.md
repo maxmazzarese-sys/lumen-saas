@@ -1,17 +1,8 @@
-# Lumen
+# Clearline
 
-Clean SaaS marketing site with recurring Whop subscriptions.
+Sports research board inspired by Linemate’s layout, plus an expert desk for grading model research.
 
-Sold by the **saas** Whop business (`biz_UFXOsZsJyq8aal`).
+Sold on the **saas** Whop business.
 
-## Plans
-
-- Starter — `$19 / month`, 7-day trial — `plan_QAV8ilBXJiKOE`
-- Pro — `$49 / month`, 7-day trial — `plan_qCIMbWoTBXdkf`
-
-Checkout:
-
-- https://whop.com/checkout/plan_QAV8ilBXJiKOE
-- https://whop.com/checkout/plan_qCIMbWoTBXdkf
-
-Product: `prod_cBKTPgT981uTI`
+- Clearline+ — $15 / month, 7-day trial — `plan_bGYYRTE4ToRts`
+- Pro — $29 / month, 7-day trial — `plan_VX3DvBozL196V`
